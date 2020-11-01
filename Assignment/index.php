@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: asus
+ * User: Pratik
  * Date: 11/1/2020
  * Time: 11:58 AM
  */
@@ -15,6 +15,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #0080ff;
+            color: white;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
@@ -26,22 +37,106 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-4">
-            <h3><a href="one.php">Question 1 </a></h3>
+            <h3><a href="Question 1/one.php">Question 1 </a></h3>
             <p>Write a PHP script to create one variable $department and assign a value ‘Indus University’. Show value of $department variable into the title section, body section within h1 tag, h3 tag.</p>
             <p>To understand the basic concepts of programming with PHP.</p>
         </div>
-        <!--<div class="col-sm-4">
-            <h3>Column 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        <div class="col-sm-4">
+            <h3><a href="Question 2/two.php">Question 2</a></h3>
+            <p>Design login page contains two fields’ username and password. If username and password both are ‘MCA’ than redirect page to Welcome.php that contains welcome message otherwise redirect page to Fail.php with appropriate error message.</p>
+            <p>To understand the basic concepts of programming with PHP.</p>
         </div>
         <div class="col-sm-4">
-            <h3>Column 3</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        </div>-->
+            <h3><a href="Question 3/employee.php">Question 3</a></h3>
+            <p>Write a PHP script for perform employee registration functionality which contains fields like employee name, birthdate, joining date, salary, and designation, area of interest and contact number. While clicking on submit button display employee details on next page using tabular format.</p>
+            <p>To understand the basic concepts of programming with PHP.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <h3><a href="">Question 4 </a></h3>
+            <p>$products = array (‘notebook’, ’pen’, ‘pencil’, ’eraser’);
+                Using above array, write a PHP script which will display the value in the following way:
+                Output:
+                notebook, pen, pencil, eraser</p>
+            <p>To understand the basic concepts of programming with PHP.</p>
+        </div>
+        <div class="col-sm-4">
+            <h3><a href="">Question 5</a></h3>
+            <p>Write a PHP script to perform following task from given recorded marks and display the answer. Note that passing marks is 35.
+                Perform the following functions:
+                1.find average marks
+                2.List out the lowest marks out of 60
+                3.List out the highest marks out of 60
+                Recorded Marks: 35,50,55,40,45,33,44,47,49,33,38,41,51,58,59,60,53,52</p>
+            <p>To understand the concept of control structure.</p>
+        </div>
+        <div class="col-sm-4">
+            <h3><a href="">Question 6</a></h3>
+            <p>Write a PHP script to get the shortest string and longest string length from a given array.
+                Sample arrays: ("Arjun","Vyanktesh","Utshav","Mahendarshin","Ambati Raydu","zeel")
+                Expected Output:
+                The shortest string length is 4.
+                The longest string length is 12</p>
+            <p>To understand the concept of array, String & control structure.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <h3><a href="">Question 7</a></h3>
+            <p>Write a PHP script to implement following function.
+                1. Sort of given array in ascending order
+                2. Count length of array string.
+                3. Reserved string.
+                4. Sort given array.
+                5. Check whether a passed string is palindrome or not.
+                Note that you have to take input from HTML form.</p>
+            <p>To understand the concept of array & String.</p>
+        </div>
+        <div class="col-sm-4">
+            <h3><a href="">Question 8</a></h3>
+            <p>Create form in which ask details of product like Product id, product name and packing date for each product. Generate a report of product detail which contains ID, product name, product expire date, quality of product and total product.</p>
+            <p>To understand concept of array and control structures.</p>
+        </div>
+        <div class="col-sm-4">
+            <h3><a href="">Question 9</a></h3>
+            <p>Write a PHP script to perform searching functionality from
+                multi-dimensional array based on user inputted value
+                [Note: Multi-dimensional array has at least 3 x 3 and array
+                value initialize array randomly]</p>
+            <p>To understand the concept of multidimensional array & looping.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <h3><a href="">Question 10</a></h3>
+            <p>Create an application, which asks for number of students and number of subjects. On the basis of this input, generate another form, which asks for name of each subject and details for each student like ID, name and marks for each subject. Display a mark sheet for each student, which contains ID, name, subject wise marks, total marks, percentage and grade of student.</p>
+            <p>To understand concept of dynamic control creation in PHP</p>
+        </div>
+        <div class="col-sm-4">
+            <h3><a href="">Question 11</a></h3>
+            <p>Write a PHP script to connect MySQL server from your website.</p>
+            <p>To understand the concept of PHP MYSQL connectivity & its operation.</p>
+        </div>
+        <div class="col-sm-4">
+            <h3><a href="">Question 12</a></h3>
+            <p>Create a web application called “Employee Log Information”. In this web application developer have to perform following task using PHP MYSQL.</p>
+            <p>To understand the concept of PHP MYSQL connectivity & its operation.</p>
+        </div>
     </div>
 </div>
+<div>
+    <br>
+</div>
+<!-- Footer -->
+<footer class="footer">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright: 😊Pratik Pathak😊</div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 
 </body>
 </html>
