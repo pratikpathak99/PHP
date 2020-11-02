@@ -13,8 +13,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
         .footer {
             position: fixed;
@@ -54,7 +52,7 @@
     </div>
     <div class="row">
         <div class="col-sm-4">
-            <h3><a href="">Question 4 </a></h3>
+            <h3><a href="Question 4/Question%204.php">Question 4 </a></h3>
             <p>$products = array (‘notebook’, ’pen’, ‘pencil’, ’eraser’);
                 Using above array, write a PHP script which will display the value in the following way:
                 Output:
@@ -62,7 +60,7 @@
             <p>To understand the basic concepts of programming with PHP.</p>
         </div>
         <div class="col-sm-4">
-            <h3><a href="">Question 5</a></h3>
+            <h3><a href="Question 5/Question%205.php">Question 5</a></h3>
             <p>Write a PHP script to perform following task from given recorded marks and display the answer. Note that passing marks is 35.
                 Perform the following functions:
                 1.find average marks
