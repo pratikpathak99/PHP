@@ -70,7 +70,7 @@
             <p>To understand the concept of control structure.</p>
         </div>
         <div class="col-sm-4">
-            <h3><a href="">Question 6</a></h3>
+            <h3><a href="Question 6/Question%206.php">Question 6</a></h3>
             <p>Write a PHP script to get the shortest string and longest string length from a given array.
                 Sample arrays: ("Arjun","Vyanktesh","Utshav","Mahendarshin","Ambati Raydu","zeel")
                 Expected Output:
@@ -81,7 +81,7 @@
     </div>
     <div class="row">
         <div class="col-sm-4">
-            <h3><a href="">Question 7</a></h3>
+            <h3><a href="Question 7/Question%207.php">Question 7</a></h3>
             <p>Write a PHP script to implement following function.
                 1. Sort of given array in ascending order
                 2. Count length of array string.
