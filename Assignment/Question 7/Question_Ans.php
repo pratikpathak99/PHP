@@ -22,7 +22,7 @@ if(isset($_POST["go"])) {
             //Convert One Variable to Array
             $a = (array) $var_value;
             // Sorting Array
-            array_multisort($a);
+            sort($a);
             break;
         case "2":
             //Convert One Variable to Array
