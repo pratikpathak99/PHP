@@ -6,6 +6,8 @@
  * Time: 7:24 PM
  */
 
+session_start();
+
 $sty = "hidden";
 $style="visibility: hidden";
 $style_Two="";
@@ -19,7 +21,9 @@ if(isset($_POST["value"])) {
     //convert Array in a one Variable.
     $test=print_r($_POST["levels"], true);
 
-    //header("Question_Ans.php");
+    $_SESSION['varname'] = $test;
+
+    header("Location:Question_Ans.php");
 
 }
 ?>
@@ -45,7 +49,7 @@ if(isset($_POST["value"])) {
 <div class="jumbotron text-center">
     <h1>Pratik Pathak</h1>
     <p>Question 7 out-put</p>
-    <p <?php echo $sty; ?>><?php print_r($_POST["levels"]); ?></p>
+
 </div>
 <div class="container">
 <form id="form" method="post">
