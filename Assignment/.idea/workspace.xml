@@ -28,7 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../php/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
@@ -67,6 +67,9 @@
       <workItem from="1605457608782" duration="8000" />
       <workItem from="1605618676698" duration="1448000" />
       <workItem from="1605621275064" duration="3792000" />
+      <workItem from="1605676070123" duration="2583000" />
+      <workItem from="1605679424450" duration="1212000" />
+      <workItem from="1605688403844" duration="422000" />
     </task>
     <servers />
   </component>
