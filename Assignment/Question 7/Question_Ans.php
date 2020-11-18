@@ -1,10 +1,55 @@
 <?php
 
 session_start();
-$passed_array = $_POST['input_name'];
 
-print_r($passed_array);
+//Get The Array Value from the Privies Page.
+$var_value = $_SESSION['varname'];
 
+//hidden Answer
+$style="visibility: hidden";
+
+if(isset($_POST["submit"])) {
+    header("Location:../index.php");
+}
+if(isset($_POST["go"])) {
+
+    //Show Answer
+    $style="visibility: none";
+
+    $select=$_POST["FormControlSelect1"];
+    switch ($select) {
+        case "1":
+            //Convert One Variable to Array
+            $a = (array) $var_value;
+            // Sorting Array
+            array_multisort($a);
+            break;
+        case "2":
+            //Convert One Variable to Array
+            $a = (array) $var_value;
+
+            $Answer = "Two";
+            break;
+        case "3":
+            //Convert One Variable to Array
+            $a = (array) $var_value;
+
+            $Answer = "Three";
+            break;
+        case "4":
+            //Convert One Variable to Array
+            $a = (array) $var_value;
+
+            $Answer = "Four";
+            break;
+        case "5":
+            //Convert One Variable to Array
+            $a = (array) $var_value;
+            
+            $Answer = "Five";
+            break;
+    }
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -28,30 +73,32 @@ print_r($passed_array);
 <div class="jumbotron text-center">
     <h1>Pratik Pathak</h1>
     <p>Question 7 out-put</p>
+    <p><?php print_r($var_value); ?></p>
 </div>
 <div class="container">
-    <div class="container" style="<?php echo $style ?>">
-        <div class="form-group">
-            <label for="exampleFormControlSelect1">Select Function</label>
-            <select class="form-control" id="FormControlSelect1" name="FormControlSelect1">
-                <option value="1">1. Sort of given array in ascending order</option>
-                <option value="2">2. Count length of array string.</option>
-                <option value="3">3. Reserved string.</option>
-                <option value="4">4. Sort given array.</option>
-                <option value="5">5. Check whether a passed string is palindrome or not.</option>
-            </select>
-        </div>
-        <div>
-            <button type="submit" class="btn btn-primary" name="go" id="go">GO</button>
-        </div>
-        <br>
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">Answer</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"><?php echo "Answer is " ?></textarea>
-        </div>
-        <!--<div class="center">
-            <button type="submit" class="btn btn-primary" name="submit" id="submit">Back To Home</button>
-        </div>-->
+    <div class="container" >
+        <form method="post">
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Select Function</label>
+                <select class="form-control" id="FormControlSelect1" name="FormControlSelect1">
+                    <option value="1">1. Sort of given array in ascending order</option>
+                    <option value="2">2. Count length of array string.</option>
+                    <option value="3">3. Reserved string.</option>
+                    <option value="4">4. Sort given array.</option>
+                    <option value="5">5. Check whether a passed string is palindrome or not.</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary" name="go" id="go">GO</button>
+            </div>
+            <br>
+            <div class="form-group" style="<?php echo $style ?>">
+                <label for="exampleFormControlTextarea1">Answer</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"><?php echo "Answer is ".print_r($a); ?></textarea>
+            </div>
+            <div class="center">
+                <button type="submit" class="btn btn-primary" name="submit" id="submit">Back To Home</button>
+            </div>
         </form>
     </div>
 </div>
