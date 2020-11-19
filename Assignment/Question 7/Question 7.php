@@ -13,7 +13,7 @@ $style="visibility: hidden";
 $style_Two="";
 
 if(isset($_POST["value"])) {
-    
+
     $sty = "";
     $style="visibility: none";
     $style_Two="visibility: hidden";
@@ -65,6 +65,7 @@ if(isset($_POST["value"])) {
     $_SESSION['Count_length'] = $Count_length;
     $_SESSION['Reserved_string'] = $Reserved_string;
     $_SESSION['Sort_array'] = $Sort_array;
+    $_SESSION['varname'] = $_POST["levels"];
 
     header("Location:Question_Ans.php");
 }
