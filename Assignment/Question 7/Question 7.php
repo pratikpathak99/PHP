@@ -13,18 +13,60 @@ $style="visibility: hidden";
 $style_Two="";
 
 if(isset($_POST["value"])) {
-    //print_r($_POST["levels"]);
+    
     $sty = "";
     $style="visibility: none";
     $style_Two="visibility: hidden";
 
-    //convert Array in a one Variable.
-    $test=print_r($_POST["levels"], true);
+    $ascending_order = $_POST["levels"];
+    asort($ascending_order);
 
-    $_SESSION['varname'] = $test;
+    $Count_length=count($ascending_order);
+
+    $Reserved_string=array_reverse($ascending_order);
+
+    $Sort_array=$_POST["levels"];
+    sort($Sort_array);
+
+    $Palindrome_check=$_POST["levels"];
+
+    function palindrome($arr, $n)
+    {
+        // Initialise flag to zero.
+        $flag = 0;
+
+        // Loop till array size n/2.
+        for ($i = 0; $i <= $n / 2 && $n != 0; $i++)
+        {
+            // Check if first and last element are
+            // different then set flag to 1.
+            if ($arr[$i] != $arr[$n - $i - 1])
+            {
+                $flag = 1;
+                break;
+            }
+        }
+
+        // If flag is set then print Not Palindrome
+        // else print Palindrome.
+        if ($flag == 1)
+            $_SESSION['Palindrome']  = "Not Palindrome";
+        else
+            $_SESSION['Palindrome']  = "Palindrome";
+    }
+
+    // Driver code.
+    $arr = $Palindrome_check;
+    $n = count($arr);
+
+    palindrome($arr, $n);
+
+    $_SESSION['ascending_order'] = $ascending_order;
+    $_SESSION['Count_length'] = $Count_length;
+    $_SESSION['Reserved_string'] = $Reserved_string;
+    $_SESSION['Sort_array'] = $Sort_array;
 
     header("Location:Question_Ans.php");
-
 }
 ?>
 <!DOCTYPE html>
