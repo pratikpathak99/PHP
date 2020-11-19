@@ -19,20 +19,24 @@ if(isset($_POST["go"])) {
     $select=$_POST["FormControlSelect1"];
     switch ($select) {
         case "1":
-            $Answer = "one";
+            $ascending_order = $_SESSION['ascending_order'];
+            $Answer = $ascending_order;
             break;
         case "2":
-            $Answer = "Two";
+            $Count_length = $_SESSION['Count_length'];
+            $Answer = $Count_length;
             break;
         case "3":
-            $Answer = "Three";
+            $Reserved_string = $_SESSION['Reserved_string'];
+            $Answer = $Reserved_string;
             break;
         case "4":
-            $Answer = "Four";
+            $Sort_array = $_SESSION['Sort_array'];
+            $Answer = $Sort_array;
             break;
         case "5":
-            
-            $Answer = "Five";
+            $Palindrome = $_SESSION['Palindrome'];
+            $Answer = $Palindrome;
             break;
     }
 }
@@ -80,8 +84,21 @@ if(isset($_POST["go"])) {
             <br>
             <div class="form-group" style="<?php echo $style ?>">
                 <label for="exampleFormControlTextarea1">Answer</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"><?php echo "Answer is "?></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"><?php print_r($Answer) ;?></textarea>
             </div>
+            </br>
+            </br>
+            </br>
+            <blockquote class="blockquote text-center">
+                <p class="mb-0">Write a PHP script to implement following function.
+                    1. Sort of given array in ascending order
+                    2. Count length of array string.
+                    3. Reserved string.
+                    4. Sort given array.
+                    5. Check whether a passed string is palindrome or not.
+                    Note that you have to take input from HTML form.</p>
+                <footer class="blockquote-footer">To understand the concept of array & String.</footer>
+            </blockquote>
             <div class="center">
                 <button type="submit" class="btn btn-primary" name="submit" id="submit">Back To Home</button>
             </div>
