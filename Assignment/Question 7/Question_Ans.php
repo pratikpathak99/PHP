@@ -19,32 +19,18 @@ if(isset($_POST["go"])) {
     $select=$_POST["FormControlSelect1"];
     switch ($select) {
         case "1":
-            //Convert One Variable to Array
-            $a = (array) $var_value;
-            // Sorting Array
-            sort($a);
+            $Answer = "one";
             break;
         case "2":
-            //Convert One Variable to Array
-            $a = (array) $var_value;
-
             $Answer = "Two";
             break;
         case "3":
-            //Convert One Variable to Array
-            $a = (array) $var_value;
-
             $Answer = "Three";
             break;
         case "4":
-            //Convert One Variable to Array
-            $a = (array) $var_value;
-
             $Answer = "Four";
             break;
         case "5":
-            //Convert One Variable to Array
-            $a = (array) $var_value;
             
             $Answer = "Five";
             break;
@@ -94,7 +80,7 @@ if(isset($_POST["go"])) {
             <br>
             <div class="form-group" style="<?php echo $style ?>">
                 <label for="exampleFormControlTextarea1">Answer</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"><?php echo "Answer is ".print_r($a); ?></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"><?php echo "Answer is "?></textarea>
             </div>
             <div class="center">
                 <button type="submit" class="btn btn-primary" name="submit" id="submit">Back To Home</button>
