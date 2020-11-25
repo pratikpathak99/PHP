@@ -92,7 +92,7 @@
             <p>To understand the concept of array & String.</p>
         </div>
         <div class="col-sm-4">
-            <h3><a href="">Question 8</a></h3>
+            <h3><a href="Question 8/Question%208.php">Question 8</a></h3>
             <p>Create form in which ask details of product like Product id, product name and packing date for each product. Generate a report of product detail which contains ID, product name, product expire date, quality of product and total product.</p>
             <p>To understand concept of array and control structures.</p>
         </div>
