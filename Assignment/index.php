@@ -107,7 +107,7 @@
     </div>
     <div class="row">
         <div class="col-sm-4">
-            <h3><a href="">Question 10</a></h3>
+            <h3><a href="Question 10/Question%2010.php">Question 10</a></h3>
             <p>Create an application, which asks for number of students and number of subjects. On the basis of this input, generate another form, which asks for name of each subject and details for each student like ID, name and marks for each subject. Display a mark sheet for each student, which contains ID, name, subject wise marks, total marks, percentage and grade of student.</p>
             <p>To understand concept of dynamic control creation in PHP</p>
         </div>
