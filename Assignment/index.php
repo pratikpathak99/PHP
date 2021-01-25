@@ -134,7 +134,7 @@
 <footer class="footer">
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright: 😊Pratik Pathak😊</div>
+    <div class="footer-copyright text-center py-3">© 2021 Copyright: 😊Pratik Pathak😊</div>
     <!-- Copyright -->
 
 </footer>
