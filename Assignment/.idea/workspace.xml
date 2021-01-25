@@ -29,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="js.build_tools.gulp">
@@ -75,6 +75,7 @@
       <workItem from="1605787648489" duration="2775000" />
       <workItem from="1605855375167" duration="1384000" />
       <workItem from="1608022145276" duration="3922000" />
+      <workItem from="1611564697503" duration="2373000" />
     </task>
     <servers />
   </component>
@@ -86,13 +87,21 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="576" y="241" key="#Web_Browsers/0.40.1536.824@0.40.1536.824" timestamp="1605618699352" />
+    <state x="548" y="207" key="FileChooserDialogImpl" timestamp="1611566686242">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="548" y="207" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1611566686242" />
     <state x="604" y="375" key="NewPhpFileDialog" timestamp="1608023233402">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="604" y="375" key="NewPhpFileDialog/0.40.1536.824@0.40.1536.824" timestamp="1608023233402" />
-    <state x="277" y="97" key="SettingsEditor" timestamp="1605625094698">
+    <state x="277" y="97" key="SettingsEditor" timestamp="1611567096995">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="277" y="97" key="SettingsEditor/0.40.1536.824@0.40.1536.824" timestamp="1605625094698" />
+    <state x="277" y="97" key="SettingsEditor/0.40.1536.824@0.40.1536.824" timestamp="1611567096995" />
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1611566669940">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1611566669940" />
   </component>
 </project>
