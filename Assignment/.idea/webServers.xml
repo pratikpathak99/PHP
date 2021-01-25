@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ac3ddc52-8e2f-4b64-95b9-ea2cc4ae16d8" name="localhost" url="http://localhost/GITHUB/PHP/Assignment">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\GITHUB\PHP\Assignment" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
