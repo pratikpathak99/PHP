@@ -11,6 +11,13 @@
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
+
+    if(isset($_POST["submit"])){
+        //echo '<script>alert("Button is work")</script>';
+        $student=$_POST["owner"];
+
+        echo $student;
+    }
 ?>
 <html>
     <head>
@@ -37,11 +44,46 @@
                                     <?php
                                     $sql = mysqli_query($conn, "SELECT `name` FROM `student_details`");
                                     while ($row = $sql->fetch_assoc()){
-                                        echo "<option value=\"owner1\">" . $row['name'] . "</option>";
+                                        echo "<option value=" . $row['name'] . ">" . $row['name'] . "</option>";
                                     }
                                     ?>
-                                </select>
+                                </select> <br>
+                                <small class="form-text text-muted">Add student <a href="Add_student.php">click here</a></small>
                             </th>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Python Marks :- </td>
+                            <td>
+                                <input type="form-control" class="form-control" id="pythonmarks" placeholder="Enter Your Python Marks">
+                                <small class="form-text text-muted">Marks is out of 100</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>PHP Marks :- </td>
+                            <td>
+                                <input type="form-control" class="form-control" id="phpmarks" placeholder="Enter Your PHP Marks">
+                                <small class="form-text text-muted">Marks is out of 100</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>OOAD Marks :- </td>
+                            <td>
+                                <input type="form-control" class="form-control" id="OOADmarks" placeholder="Enter Your OOAD Marks">
+                                <small class="form-text text-muted">Marks is out of 100</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>STQA Marks :- </td>
+                            <td>
+                                <input type="form-control" class="form-control" id="STQAmarks" placeholder="Enter Your STQA Marks">
+                                <small class="form-text text-muted">Marks is out of 100</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center"><button type="submit" class="btn btn-primary" name="submit" id="submit">Submit</button> </td>
                         </tr>
                     </thead>
                 </table>
