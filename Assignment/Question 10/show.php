@@ -1,4 +1,5 @@
 <?php
+    session_start();
     $servername = "localhost";
     $username = "root";
     $password = "";
@@ -14,6 +15,8 @@
     }
     if(isset($_POST["submit"])) {
         $student=$_POST["owner"];
+        $_SESSION['student_name'] = $student;
+        header("location:Result.php");
     }
 
 
