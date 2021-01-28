@@ -112,7 +112,7 @@
             <p>To understand concept of dynamic control creation in PHP</p>
         </div>
         <div class="col-sm-4">
-            <h3><a href="">Question 11</a></h3>
+            <h3><a href="Question%2011/Question%2011.php">Question 11</a></h3>
             <p>Write a PHP script to connect MySQL server from your website.</p>
             <p>To understand the concept of PHP MYSQL connectivity & its operation.</p>
         </div>
