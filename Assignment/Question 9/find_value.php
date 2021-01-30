@@ -1,10 +1,11 @@
 <?php
     session_start();
     $threearray = $_SESSION['threearray'];
-    if(isset($_POST["submit"]))
-    {
+    if(isset($_POST["submit"])){
+        $find = $_POST['find'];
         
     }
+
 ?>
 <!DOCTYPE html>
 <html>
