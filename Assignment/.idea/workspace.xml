@@ -28,8 +28,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Question 12" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\GITHUB\PHP\Assignment\Question 12" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="js.build_tools.gulp">
@@ -82,7 +87,12 @@
       <workItem from="1611738222733" duration="6135000" />
       <workItem from="1611815809983" duration="387000" />
       <workItem from="1611818025166" duration="1274000" />
-      <workItem from="1611824050458" duration="2596000" />
+      <workItem from="1611824050458" duration="3366000" />
+      <workItem from="1611839682169" duration="8000" />
+      <workItem from="1611857030545" duration="85000" />
+      <workItem from="1611903945433" duration="2261000" />
+      <workItem from="1611981882585" duration="2275000" />
+      <workItem from="1611988235786" duration="2308000" />
     </task>
     <servers />
   </component>
@@ -94,26 +104,26 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="654" y="315" key="#Notifications/0.40.1536.824@0.40.1536.824" timestamp="1611738466929" />
-    <state x="576" y="241" key="#Web_Browsers" timestamp="1611824091345">
+    <state x="576" y="241" key="#Web_Browsers" timestamp="1611982112806">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="576" y="241" key="#Web_Browsers/0.40.1536.824@0.40.1536.824" timestamp="1611824091345" />
-    <state x="548" y="207" key="FileChooserDialogImpl" timestamp="1611824084850">
+    <state x="576" y="241" key="#Web_Browsers/0.40.1536.824@0.40.1536.824" timestamp="1611982112806" />
+    <state x="548" y="207" key="FileChooserDialogImpl" timestamp="1611982111060">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="548" y="207" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1611824084850" />
-    <state x="604" y="375" key="NewPhpFileDialog" timestamp="1611825351341">
+    <state x="548" y="207" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1611982111060" />
+    <state x="604" y="375" key="NewPhpFileDialog" timestamp="1611982286800">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="604" y="375" key="NewPhpFileDialog/0.40.1536.824@0.40.1536.824" timestamp="1611825351341" />
-    <state x="277" y="97" key="SettingsEditor" timestamp="1611567096995">
+    <state x="604" y="375" key="NewPhpFileDialog/0.40.1536.824@0.40.1536.824" timestamp="1611982286800" />
+    <state x="277" y="97" key="SettingsEditor" timestamp="1611981961179">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="277" y="97" key="SettingsEditor/0.40.1536.824@0.40.1536.824" timestamp="1611567096995" />
-    <state x="425" y="207" key="run.anything.popup" timestamp="1611671051307">
+    <state x="277" y="97" key="SettingsEditor/0.40.1536.824@0.40.1536.824" timestamp="1611981961179" />
+    <state x="425" y="207" key="run.anything.popup" timestamp="1611988324955">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="425" y="207" key="run.anything.popup/0.40.1536.824@0.40.1536.824" timestamp="1611671051307" />
+    <state x="425" y="207" key="run.anything.popup/0.40.1536.824@0.40.1536.824" timestamp="1611988324955" />
     <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1611566669940">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
