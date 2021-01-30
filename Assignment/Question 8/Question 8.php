@@ -1,32 +1,13 @@
 <?php
-
-class product{
-    private $Product_id;
-    private $product_name;
-    private $packing_date;
-    private $product_expire_date;
-    private $quality_of_product;
-
-    function set_details($Product_id,$product_name,$packing_date,$product_expire_date,$quality_of_product){
-        $this->Product_id = $Product_id;
-        $this->product_name = $product_name;
-        $this->packing_date = $packing_date;
-        $this->product_expire_date = $product_expire_date;
-        $this->quality_of_product = $quality_of_product;
-    }
-    function get_details(){
-        echo $this->Product_id."<br>";
-        echo $this->product_name."<br>";
-        echo $this->packing_date."<br>";
-        echo $this->product_expire_date."<br>";
-        echo $this->quality_of_product."<br>";
-    }
-
+if(isset($_POST["add"])){
+    header("Location: add.php" );
 }
-
-$product_one = new product();
-$product_one->set_details(1,"p","11/20/2020","11/20/2021",2);
-$product_one->get_details();
+if(isset($_POST["show"])){
+    header("Location: show.php");
+}
+if(isset($_POST["submit"])){
+    header("Location:../index.php");
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -50,8 +31,15 @@ $product_one->get_details();
 <div class="jumbotron text-center">
     <h1>Pratik Pathak</h1>
     <p>Question 8 out-put</p>
-
 </div>
+<form method="post">
+    <div class="container">
+        <button type="submit" class="btn btn-primary btn-lg btn-block" name="add" id="add">Add Product</button>
+        <button type="submit" class="btn btn-primary btn-lg btn-block" name="show" id="show">Show Product</button>
+    </div>
+    <div class="center">
+        <button type="submit" class="btn btn-primary" name="submit" id="submit">Back To Home</button>
+    </div>
 </body>
 </html>
 
