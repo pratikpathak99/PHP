@@ -13,6 +13,8 @@
         /*echo $threearray[0][0].": In stock: ".$threearray[0][1].", sold: ".$threearray[0][2].".<br>";
         echo $threearray[1][0].": In stock: ".$threearray[1][1].", sold: ".$threearray[1][2].".<br>";
         echo $threearray[2][0].": In stock: ".$threearray[2][1].", sold: ".$threearray[2][2].".<br>";*/
+
+        header("location:find_value.php");
     }
 ?>
 <html>
