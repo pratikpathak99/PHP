@@ -1,17 +1,25 @@
 <?php
     session_start();
     $threearray = $_SESSION['threearray'];
+    $ans = "";
     if(isset($_POST["submit"])){
         $find = $_POST['find'];
         for ($x = 0; $x <= 2; $x++) {
             for($y = 0; $y <= 2; $y++){
                 if($find == $threearray[$x][$y]){
-                    echo "number are available row = ".$x ." And column = ".$y;
+                    $ans = "number are available row = ".$x ." And column = ".$y;
                     break;
                 }
             }
         }
+        if($ans == ""){
+            $ans = "number not found";
+        }
     }
+    if(isset($_POST["back"])){
+        header("location:../index.php");
+    }
+
 
 ?>
 <!DOCTYPE html>
@@ -56,10 +64,28 @@
                 <td colspan="2"><br></td>
             </tr>
             <tr>
+                <td colspan="2"><?php echo $ans;?></td>
+            </tr>
+            <tr>
+                <td colspan="2"><br></td>
+            </tr>
+            <tr>
                 <td colspan="2">
                     <div class="form-group">
                         <div class="col-sm-9 col-sm-offset-3">
                             <button type="submit" class="btn btn-primary btn-block" id="submit" name="submit">Search</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><br></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="form-group">
+                        <div class="col-sm-9 col-sm-offset-3">
+                            <button type="submit" class="btn btn-primary btn-block" id="back" name="back">Back to home</button>
                         </div>
                     </div>
                 </td>
