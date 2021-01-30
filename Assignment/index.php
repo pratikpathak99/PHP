@@ -117,7 +117,7 @@
             <p>To understand the concept of PHP MYSQL connectivity & its operation.</p>
         </div>
         <div class="col-sm-4">
-            <h3><a href="">Question 12</a></h3>
+            <h3><a href="Question%2012/Question%2012.php">Question 12</a></h3>
             <p>Create a web application called “Employee Log Information”. In this web application developer have to perform following task using PHP MYSQL.</p>
             <p>To understand the concept of PHP MYSQL connectivity & its operation.</p>
         </div>
