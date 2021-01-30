@@ -26,7 +26,12 @@ if(isset($_POST["submit"]))
             $id="".$row["status"]."";
         }
         if($id == 1){
-            
+            $da = date("Y-m-d");
+            $log = "INSERT INTO `employee_login_log`(`E_id`, `Entery_date`) VALUES ('".$user."','".$da."')";
+            $log_entery = $conn->query($log);
+            if($log_entery){
+                header("Location:welcome.php");
+            }
         }
 
     }
