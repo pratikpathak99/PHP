@@ -97,7 +97,7 @@
             <p>To understand concept of array and control structures.</p>
         </div>
         <div class="col-sm-4">
-            <h3><a href="">Question 9</a></h3>
+            <h3><a href="Question%209/Question%209.php">Question 9</a></h3>
             <p>Write a PHP script to perform searching functionality from
                 multi-dimensional array based on user inputted value
                 [Note: Multi-dimensional array has at least 3 x 3 and array
