@@ -3,7 +3,14 @@
     $threearray = $_SESSION['threearray'];
     if(isset($_POST["submit"])){
         $find = $_POST['find'];
-        
+        for ($x = 0; $x <= 2; $x++) {
+            for($y = 0; $y <= 2; $y++){
+                if($find == $threearray[$x][$y]){
+                    echo "number are available row = ".$x ." And column = ".$y;
+                    break;
+                }
+            }
+        }
     }
 
 ?>
