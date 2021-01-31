@@ -1,7 +1,7 @@
 <?php
     session_start();
     $product = $_SESSION["Main_array"];
-
+    
 ?>
 <html>
 <head>
