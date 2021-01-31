@@ -1,7 +1,7 @@
 <?php
     session_start();
     if(isset($_POST['submit'])){
-        $product = array("Product_ID" => $_POST["Product_Id"],"Product_Name" => $_POST["product_name"],"Product Packing_Date" =>$_POST["packing_date"],"Expiry_Date"=>$_POST["Expiry_Date"],"Quality_Of_Product" =>$_POST["Quality_Of_Product"]);
+        $product = array("Product_ID" => $_POST["Product_Id"],"Product_Name" => $_POST["product_name"],"Product Packing_Date" =>$_POST["packing_date"],"Expiry_Date"=>$_POST["Expiry_Date"],"Quality_Of_Product" =>"error");
 
         $_SESSION["Main_array"]=$product;
         echo '<script>alert("Data Add")
@@ -9,6 +9,7 @@
             </script>';
 
     }
+
 ?>
 <html>
 <head>
@@ -55,10 +56,7 @@
                     <th scope="row">Expiry Date :- </th>
                     <td><input type="Date" name="Expiry_Date" id="Expiry_Date" placeholder="Enter Expiry Date"/></td>
                 </tr>
-                <tr>
-                    <th scope="row">Quality Of Product :- </th>
-                    <td><input type="text" name="Quality_Of_Product" id="Quality_Of_Product" placeholder="Enter Quality Of Product"/></td>
-                </tr>
+
                 <tr>
                     <th colspan="2" style="text-align:center;"><input type="submit" id="submit" name="submit" class="btn btn-primary"/> </th>
                 </tr>
