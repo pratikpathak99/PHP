@@ -123,6 +123,9 @@ if(isset($_POST["submit"]))
                 <input type="number" id="Contact_Number" placeholder="Contact Number" class="form-control" name="Contact_Number">
             </div>
         </div>
+        <div>
+            <input type="submit" class="btn btn-primary" id="Submit" name="submit" value="submit"/>
+        </div>
         <!-- /.form-group -->
         <div class="form-group">
             <div class="col-sm-9 col-sm-offset-3">
